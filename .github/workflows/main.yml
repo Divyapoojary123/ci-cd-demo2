@@ -45,7 +45,7 @@ jobs:
        uses: actions/checkout@v4  
 
      - name: Deploy the application
-       uses: echo "Deploying the application" 
+       run: echo "Deploying the application" 
        
        
        
